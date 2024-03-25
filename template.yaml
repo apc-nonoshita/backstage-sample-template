@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: sample-app-template
+  name: backstage-sample-template
   title: Create a sample application with a CI pipeline
   description: Provides the sample code and CI pipeline to build and deploy a sample application on OpenShift.
   tags:
@@ -20,7 +20,7 @@ spec:
         app_name:
           title: Repository Name
           type: string
-          default: "sample-app"
+          default: "backstage-sample-app"
         description:
           title: Description
           type: string
